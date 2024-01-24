@@ -12,7 +12,7 @@ public class J_15_1_Replace {
 //        System.out.println(st.replace(" ","_"));
 
         String letter =" Dear |<name>|, Thanks a lot!";
-//        letter.replace("|<name>|","Abhishek");   // it will not replace because it is not initialize
+       letter.replace("|<name>|","Abhishek");   // it will not replace because it is not initialize
         letter = letter.replace("|<name>|","Abhishek");  //it is initialize
         System.out.println(letter);
     }
