@@ -1,1 +1,1 @@
-.trim())
+getNetworks
